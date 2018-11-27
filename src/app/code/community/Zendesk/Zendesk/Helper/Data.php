@@ -358,7 +358,7 @@ class Zendesk_Zendesk_Helper_Data extends Mage_Core_Helper_Abstract
     }
     
     public function getFormatedDateTime($dateToFormat) {
-        return Mage::helper('core')->formatDate($dateToFormat, 'medium', true);
+        return Mage::helper('core')->formatDate($dateToFormat, Mage_Core_Model_Locale::FORMAT_TYPE_MEDIUM, true);
     }
 
     /**

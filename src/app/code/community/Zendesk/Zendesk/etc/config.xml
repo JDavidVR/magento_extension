@@ -81,6 +81,13 @@
                     <frontName>zendesk</frontName>
                 </args>
             </zendesk>
+            <rest>
+                <use>standard</use>
+                <args>
+                    <module>Zendesk_Zendesk</module>
+                    <frontName>rest</frontName>
+                </args>
+            </rest>
         </routers>
         <layout>
             <updates>
